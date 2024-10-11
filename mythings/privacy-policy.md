@@ -7,7 +7,7 @@ Updated on: 2024-10-06
 </p>
 
 <p>
-This Privacy Policy explains the policies of Konrad Schewe on the collection and use of the personal information we collect when you access the Inventrack app. This Privacy Policy describes your privacy rights and how you are protected under privacy laws.
+This Privacy Policy explains the policies of Konrad Schewe on the collection and use of the personal information we collect when you access the MyThings app. This Privacy Policy describes your privacy rights and how you are protected under privacy laws.
 <br/>
 By using our App, you are consenting to the collection and use of your information in accordance with this Privacy Policy. Please do not access or use our App if you do not consent to the collection and use of your information as outlined in this Privacy Policy.
 <br/>
@@ -68,11 +68,11 @@ If you make a request, we have one month to respond to you. If you would like to
 
 ### The right to access
 
-You have the right to request Inventrack for copies of your personal data. We may charge you a small fee for this service.
+You have the right to request MyThings for copies of your personal data. We may charge you a small fee for this service.
 
 ### The right to rectification
 
-You have the right to request that we correct any information you believe is inaccurate. You also have the right to request Inventrack to complete information you believe is incomplete.
+You have the right to request that we correct any information you believe is inaccurate. You also have the right to request MyThings to complete information you believe is incomplete.
 
 ### The right to erasure
 
