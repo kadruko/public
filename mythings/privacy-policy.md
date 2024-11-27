@@ -1,9 +1,9 @@
 # Privacy Policy
 
 <p>
-Effective date: 2024-10-06
+Effective date: 2024-12-01
 <br/>
-Updated on: 2024-10-06
+Updated on: 2024-11-27
 </p>
 
 <p>
@@ -30,31 +30,59 @@ Konrad Schewe is authorized to modify this Privacy Policy at any time. This may 
 ## 1. What data do we collect?
 
 Our App collects the following data:
+- Inventories
 - Inventory Items
 - Item Storages
+- Device ID
+- Changes to any data object mentioned above (Create, Update, Delete)
+
+If you use the login feature, we additionally store
+- User Information
+  - Name (Full Name, First Name, Last Name)
+  - E-Mail
+  - Profile Picture
+- Inventory-Assignments: The inventories you are allowed to access
+- Invitations you have sent to share an inventory
 
 ## 2. How do we collect your data?
 
 The data we collect is provided by the user using formulars in the app.
 More explicitly, we collect and process data, when you:
+- CRUD Inventories
 - CRUD Inventory Items
 - CRUD Storages
+
+The Device ID is generated when you start the app for the first time and is available for this application only.
+An initial inventory is generated on first application startup or if you have deleted all other inventories.
+
+If you use the login functionality, you are authenticating yourself with a Google account.
+We are collecting the mentioned personal data from Google and store them in our server database to offer you a more personalized in-app experience.
+
+By enabling the synchronization, we additionally collect data when you:
+- Share an inventory: An invitation code will be created
+- Join an inventory: An inventory-assignment is created
 
 ## 3. How will we use your data?
 
 Our App collects data so that we can:
 - Offer you the functionality to store your Inventory using the app
+- Synchronize and share your Inventories with other users
 
 The entered data is not shared with any third party.
 
+In case you want to synchronize your data over multiple devices, we need your Google authentication to ensure that you are allowed to see your data.
+Based on that, we can offer you a secure app experience.
+
+By using the data synchronization, the local data changes are transferred via HTTP to an REST service hosted on 89.58.29.139. If you are assigned to any inventory, your device is pulling the latest changes from this service and persists them to your local database.
+
 ## 4. How do we store your data?
 
-Your entered data is stored locally on your mobile device.
-Currently your data is not synced to any external server.
-
-The data is stored locally in a SQLite database.
+Your entered data is stored locally on your mobile device first.
+The locally stored data is being persisted in a SQLite database.
 We keep your data as long as you are active in the app.
-The data can be deleted manually by the user all at once by uninstalling the app or cleaning up the app's data.
+The local data can be deleted manually by the user all at once by uninstalling the app or cleaning up the app's data.
+
+When you use data synchronization, the data is stored on our server in a PostgreSQL database.
 
 ## 5. Marketing
 
@@ -73,18 +101,20 @@ You have the right to request MyThings for copies of your personal data. We may 
 ### The right to rectification
 
 You have the right to request that we correct any information you believe is inaccurate. You also have the right to request MyThings to complete information you believe is incomplete.
+- Everything you change on your inventory locally will be reflected in our server's change database too.
+- The user information is collected from Google. Please update your account according to Googles documentation. After that you can re-login in our app and your personal data should be refreshed.
 
 ### The right to erasure
 
-You have the right to request that we erase your personal data, under certain conditions:
-- You have to clean up the data on your own as the data is stored locally.
+You have the right to request that we erase your personal data, under certain conditions: If you would like to delete the data referenced to your account, please go to the app -> settings -> menu -> delete account. This will remove the access to all your inventories, deletes assignments, invitations and your user profile from our database. The changes you have made to an inventory are not deleted. The changes become anonymized. They are not deleted as you might have shared the inventory with others.
+In case you wish a full deletion of an inventory as well, you can delete each inventory individually. Go to the app -> settings -> select your inventory -> edit -> menu -> delete inventory. This step must be done before the user deletion.
 
 ### The right to restrict processing
 
 You have the right to request that our company restrict the processing of your personal data under certain conditions.
 The App tells which information is required and which is not.
 You do not need to fill all information if you do not wish.
-Most of them are required for providing our, but some can be left.
+Most of them are required for providing our service, but some can be left.
 
 ### The right to object to processing
 
