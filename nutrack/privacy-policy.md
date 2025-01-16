@@ -1,9 +1,9 @@
 # Privacy Policy
 
 <p>
-Effective date: 2024-12-01
+Effective date: 2025-01-16
 <br/>
-Updated on: 2024-11-27
+Updated on: 2025-01-16
 </p>
 
 <p>
