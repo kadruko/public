@@ -3,7 +3,7 @@
 <p>
 Effective date: 2024-12-01
 <br/>
-Updated on: 2024-11-27
+Updated on: 2024-01-17
 </p>
 
 <p>
@@ -33,6 +33,8 @@ Our App collects the following data:
 - Inventories
 - Inventory Items
 - Item Storages
+- Categories
+- Category to Item Assignments
 - Device ID
 - Changes to any data object mentioned above (Create, Update, Delete)
 
