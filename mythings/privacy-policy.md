@@ -3,7 +3,7 @@
 <p>
 Effective date: 2024-12-01
 <br/>
-Updated on: 2024-01-17
+Updated on: 2025-01-31
 </p>
 
 <p>
@@ -53,6 +53,7 @@ More explicitly, we collect and process data, when you:
 - CRUD Inventories
 - CRUD Inventory Items
 - CRUD Storages
+- CRUD Categories
 
 The Device ID is generated when you start the app for the first time and is available for this application only.
 An initial inventory is generated on first application startup or if you have deleted all other inventories.
@@ -75,7 +76,7 @@ The entered data is not shared with any third party.
 In case you want to synchronize your data over multiple devices, we need your Google authentication to ensure that you are allowed to see your data.
 Based on that, we can offer you a secure app experience.
 
-By using the data synchronization, the local data changes are transferred via HTTP to an REST service hosted on 89.58.29.139. If you are assigned to any inventory, your device is pulling the latest changes from this service and persists them to your local database.
+By using the data synchronization, the local data changes are transferred via HTTPS (SSL encrypted) to an REST service hosted on `https://mythings.glowsoft.de`. If you are assigned to any inventory, your device is pulling the latest changes from this service and persists them to your local database.
 
 ## 4. How do we store your data?
 
